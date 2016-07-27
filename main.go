@@ -24,6 +24,11 @@ type Func struct {
 	Offset int
 }
 
+// TODO:
+// - add concurrency
+// - add spread ./... or pkg/... for guru scope
+// - add auto file detecting for guru offset
+
 func main() {
 	flag.Parse()
 
